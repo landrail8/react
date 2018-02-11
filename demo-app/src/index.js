@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import HelloWorld from './apps/HelloWorld/HelloWorld';
+import Clock from './apps/Clock/Clock';
+// import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(<HelloWorld />, document.getElementById('HelloWorld'));
+ReactDOM.render(<Clock />, document.getElementById('Clock'));
+
+// registerServiceWorker();
